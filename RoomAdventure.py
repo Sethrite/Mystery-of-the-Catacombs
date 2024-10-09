@@ -37,35 +37,35 @@ class Room:
         return self._exits
     @exits.setter
     def exits(self, value):
-        self._exits = value
+        self._exits: list = value
         
     @property
     def exitLocations(self):
         return self._exitLocations
     @exitLocations.setter
     def exitLocations(self, value):
-        self._exitLocations = value
+        self._exitLocations: list = value
         
     @property
     def items(self):
         return self._items
     @items.setter
     def items(self, value):
-        self._items = value
+        self._items: list = value
         
     @property
     def itemDescriptions(self):
         return self._itemDescriptions
     @itemDescriptions.setter
     def itemDescriptions(self, value):
-        self._itemDescriptions = value
+        self._itemDescriptions: list = value
         
     @property
     def grabbables(self):
         return self._grabbables
     @grabbables.setter
     def grabbables(self, value):
-        self._grabbables = value
+        self._grabbables: list = value
     
     
     # adds an exit to the room
